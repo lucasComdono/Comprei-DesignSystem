@@ -1,15 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
 :root {
     --bs-body-font-family: 'Ubuntu', sans-serif !important;
 }
 
 // Colors
-$primary:      #318CCF;
-$secondary:    #2B404F;
-$success:      #00B950;
-$warning:      #FCC00E;
-$danger:       #E94539;
+$primary:                    #318CCF;
+$secondary:                  #2B404F;
+$success:                    #00B950;
+$warning:                    #FCC00E;
+$danger:                     #E94539;
+
+// Links
+$link-color:                  $primary;
+$link-decoration:             none !important;
+$link-shade-percentage:       100%;
+$link-hover-color:            shift-color($link-color, $link-shade-percentage) ;
+$link-hover-decoration:       null ;
+
+// Navs
+$nav-link-font-size:                null !default;
+$nav-link-font-weight:              null !default;
+$nav-link-color:                    $gray-600 !important;
+$nav-link-hover-color:              $gray-500 !important;
 
 
 // scss-docs-start border-radius-variables
