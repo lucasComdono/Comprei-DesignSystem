@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-
+/* Bootstrap core imports */
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
-@import '../node_modules/bootstrap/scss/mixins';
+
 
 :root {
     --bs-body-font-family: 'Ubuntu', sans-serif !important;
@@ -11,7 +11,7 @@
 
 // Colors
 $primary:                    #318CCF;
-$secondary:                  #2B404F;
+$secondary:                  #256A9C;
 $success:                    #00B950;
 $warning:                    #FCC00E;
 $danger:                     #E94539;
@@ -29,14 +29,14 @@ $nav-link-font-weight:              null !default;
 $nav-link-color:                    $gray-600 !important;
 $nav-link-hover-color:              $gray-500 !important;
 
-
 // scss-docs-start border-radius-variables
 $border-radius:               .2rem !default;
 $border-radius-sm:            .15rem !default;
-$border-radius-lg:            .3rem !default;
-$border-radius-pill:          60rem !default;
+$border-radius-lg:            .25rem !default;
+$border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
 
 
 // Import Bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
