@@ -1,3 +1,13 @@
+
+
+/* .comprador-carousel{
+    text-align: start;
+    margin-top: 40px;
+}
+.comprador-carousel a:hover {
+    box-shadow: 0 .5rem 1rem rgba(#000, .15);
+    border: 1px solid #318CCF ;
+}
 .comprador-header{
     display: flex;
     align-items: center;
@@ -8,7 +18,36 @@
     margin-right: 15px;
     margin-left: 10px;
 }
-
 .comprador-header h6 {
     margin-top: 10px;
 }
+.comprador-investimento {
+    background-color: #74aed746;
+    padding: 5px 10px;  
+    border-radius: 0.2rem;
+    margin: 15px 0 25px;  
+}
+.comprador-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.comprador-item {
+    width: 100%;
+    font-size: .875em;
+    text-align: center;
+    color: #6c757d;
+}
+.comprador-btn {
+    border: 0 !important;
+    border-radius: 0px 0px .2rem .2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.comprador-btn:hover {
+    color: #fff;
+    background-color: #318CCF;
+}
+ */
+

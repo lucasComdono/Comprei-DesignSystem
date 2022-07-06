@@ -3,6 +3,7 @@
 /* Bootstrap core imports */
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
+@imo
 
 
 :root {
@@ -36,7 +37,104 @@ $border-radius-lg:            .25rem !default;
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
 
+// Buttons + Forms
+$btn-padding-y:    .8rem;
+$btn-padding-x:    2rem;
+
+
 
 // Import Bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+// Theme Customization
+
+
+.sobre {
+    padding: 6rem 0;
+    img {
+        height: 100%;
+    }
+    p {
+        line-height: 2em;
+    }
+}
+
+// Background
+.bg-primary {
+    background-color: $primary !important;
+}
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+// Comprador Card
+.comprador-card  {
+    border: 1px solid $gray-200;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    .comprador-header{
+        display: flex;
+        align-items: center;
+        h6 {
+            margin-top: 10px;
+        }
+    }
+    .comprador-header img {
+        width: 35px !important;
+        height: 35px;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    .comprador-investimento {
+        background-color: #74aed746;
+        padding: 5px 10px;  
+        border-radius: 0.2rem;
+        margin: 15px 0 25px;  
+        small {
+            font-size: .8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+    button {
+        border: 0 !important;
+        border-radius: 0px 0px .2rem .2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: $gray-100;
+        color: $gray-600;
+    }
+    .comprador-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+    }
+    .comprador-item {
+        width: 100%;
+        list-style: none;
+        font-size: .875em;
+        text-align: center;
+        color: $gray-600;
+    }
+}
+.comprador-card:hover {
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    border: 1px solid #318CCF ;
+
+    button {
+        color: #fff;
+        background-color: #318CCF;
+    }
+}
+
+// Comprador Carousel
+.comprador-carousel{
+    text-align: start;
+    margin-top: 40px;
+
+}
+
 
