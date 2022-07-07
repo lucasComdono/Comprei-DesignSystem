@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 /* Bootstrap core imports */
-@import '../node_modules/bootstrap/scss/functions';
+// @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
-@imo
+
 
 
 :root {
@@ -11,11 +11,12 @@
 }
 
 // Colors
-$primary:                    #318CCF;
+$primary:                    #318CCF !important;
 $secondary:                  #256A9C;
 $success:                    #00B950;
 $warning:                    #FCC00E;
 $danger:                     #E94539;
+
 
 // Links
 $link-color:                  $primary;
@@ -51,7 +52,23 @@ $btn-padding-x:    2rem;
 // Theme Customization
 
 
-.sobre {
+.step {
+    display: flex;
+    width: 100%;
+    span {
+        // text-align: center;
+        background-color: #256A9C;
+        height: 60px;
+        width: 80px;
+        // border-radius: .3rem;
+        // color: $white;
+        // font-size: 1.8rem;
+        // margin-right: 1.8rem;
+    }
+}
+
+// Home
+.section-sobre {
     padding: 6rem 0;
     img {
         height: 100%;
@@ -61,13 +78,16 @@ $btn-padding-x:    2rem;
     }
 }
 
-// Background
-.bg-primary {
-    background-color: $primary !important;
-}
-.bg-secondary {
-    background-color: $secondary !important;
-}
+// Como Funciona
+
+
+// // Background
+// .bg-primary {
+//     background-color: $primary !important;
+// }
+// .bg-secondary {
+//     background-color: $secondary !important;
+// }
 
 // Comprador Card
 .comprador-card  {
